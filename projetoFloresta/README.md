@@ -11,8 +11,6 @@
 ## 📖 Metodologia
 
 
-## 🖥️ Resultados
-
 ## 📁 Estrutura do Projeto
 
 ```bash
@@ -35,6 +33,9 @@
 ├── Makefile              # Script de compilação
 └── README.md             # Este arquivo
 ```
+
+
+## 🖥️ Resultados
 
 ## 🚀 Como Executar
 
