@@ -1,7 +1,10 @@
 # _Fuga do incêndio_
 
-![ChatGPT Image 21 de abr  de 2025, 21_43_14](https://github.com/user-attachments/assets/1f73a2cf-ca6e-4ef4-9296-57f833778ede)
+<div align="center">
+    <img src="" />
+</div>
 
+<div align="center">
 ## 🫎 Introdução
 
 <p> <p/>
