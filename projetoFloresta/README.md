@@ -1,10 +1,11 @@
 # _Fuga do incêndio_
 
 <div align="center">
-    <img src="" />
+    <img src="./img/foto.jpg">
 </div>
 
 <div align="center">
+    
 ## 🫎 Introdução
 
 <p> <p/>
