@@ -2,12 +2,12 @@
 
 ![ChatGPT Image 21 de abr  de 2025, 21_43_14](https://github.com/user-attachments/assets/1f73a2cf-ca6e-4ef4-9296-57f833778ede)
 
-## Introdução
+## 🫎 Introdução
 
 <p> <p/>
 
 
-## 🚀 Metodologia
+## 📖 Metodologia
 
 
 
@@ -42,3 +42,8 @@ make
 make run
 ```
 
+## 👩🏻‍🔬 Autora
+<p>
+<b>Instagram:<b/> avila__lorena
+*Linkedin*: www.linkedin.com/in/lorena-á-b40b03205
+</pre>
