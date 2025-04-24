@@ -48,7 +48,9 @@ make run
 ```
 
 ## 👩🏻‍💻 Autora
-<p>Linkedin: www.linkedin.com/in/lorena-á-b40b03205
+<p>Lorena Ávila
+    
+Linkedin: www.linkedin.com/in/lorena-á-b40b03205
     
 Instagram: 
 
