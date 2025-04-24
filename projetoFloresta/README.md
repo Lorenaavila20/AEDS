@@ -1,20 +1,17 @@
-# _Fuga do incêndio_
+# Fuga do incêndio
 
 <div align="center">
     <img src="./img/foto.jpg">
 </div>
 
-<div align="center">
-    
-## 🫎 Introdução
 
-<p> <p/>
+## 🫎 Introdução
 
 
 ## 📖 Metodologia
 
 
-
+## 🖥️ Resultados
 
 ## 📁 Estrutura do Projeto
 
@@ -32,6 +29,9 @@
 │   └── config.hpp
 ├── input.dat             # Arquivo de entrada com a floresta e posição inicial do fogo
 ├── output.dat            # Arquivo de saída com os estados da simulação
+├── img/                  # Fotos utilizadas
+│   ├── qrcode.png
+│   ├── foto.jpg
 ├── Makefile              # Script de compilação
 └── README.md             # Este arquivo
 ```
@@ -46,8 +46,10 @@ make
 make run
 ```
 
-## 👩🏻‍🔬 Autora
-<p>
-<b>Instagram:<b/> avila__lorena
-*Linkedin*: www.linkedin.com/in/lorena-á-b40b03205
-</pre>
+## 👩🏻‍💻 Autora
+<p>Linkedin: www.linkedin.com/in/lorena-á-b40b03205
+    
+Instagram: 
+
+<img src="./img/qrcode.png" width="100" heigth="100">
+</p>
