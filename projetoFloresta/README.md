@@ -6,6 +6,7 @@
 
 
 ## 🫎 Introdução
+<p>Neste trabalho, foi proposto desenvolver um simulador que representa a propagação de um incêndio em uma floresta e a tentativa de fuga de um animal presente nesse ambiente. A ideia é simular esse cenário em uma matriz, onde cada célula representa um tipo de terreno (como árvores, fogo, água ou áreas vazias). A cada iteração da simulação, o fogo se espalha de acordo com certas regras, e o animal precisa encontrar um caminho seguro para escapar, levando em consideração a situação ao redor.</p>
 
 
 ## 📖 Metodologia
