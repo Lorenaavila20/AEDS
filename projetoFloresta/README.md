@@ -83,6 +83,7 @@ A lógica de busca usa a fila std::queue<std::pair<int, int>> fila e controla as
 Se, mesmo tentando, o animal ficar cercado pelo fogo e for atingido, chamamos o método segundaChance(), que dá uma última oportunidade de fugir, tentando mover imediatamente de novo. Se ainda assim não tiver saída, consideramos o animal bloqueado e registramos em qual iteração isso aconteceu.
 
 Por fim, para acompanhar tudo, criamos o método imprimirCaminhoComMatriz(), que mostra tanto a matriz da floresta quanto o caminho percorrido pelo animal, salvando também tudo isso em um arquivo de saída.
+
 </p>
 
 ---
@@ -171,6 +172,8 @@ Mesmo com a tentativa do animal de fugir buscando áreas seguras ou água, nem s
 Apesar de o sistema funcionar bem para o que foi proposto, algumas melhorias poderiam deixar a simulação ainda mais interessante e realista. Por exemplo:
 
 - Poderia ser implementado um sistema mais inteligente de movimentação do animal, talvez usando algoritmos de caminho mínimo (como Dijkstra ou A*), para ele planejar rotas melhores.
+
+No geral, a simulação atingiu os objetivos principais e conseguiu representar uma situação dinâmica onde a velocidade do fogo e as escolhas do animal são fatores decisivos para a sobrevivência.
     
 </p>
 
