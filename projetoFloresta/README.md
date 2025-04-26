@@ -210,6 +210,8 @@ Todo o projeto foi desenvolvido em C++, aproveitando recursos de orientação a 
 
 </p>
 
+---
+
 ## 🚀 Como Executar
 
 1. Compile e execute usando o Makefile:
