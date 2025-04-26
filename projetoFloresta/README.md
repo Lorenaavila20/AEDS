@@ -123,8 +123,92 @@ O fogo começará na posição [1,1] na matriz 5X5, com o vento desligado (fogo 
 Após a primeira interação:
 
 <img src="./img/int1.png">
-    
+
+O animal se encontra na posição [3,1] e o fogo se alastra nas 4 direções.
+
+Após a segunda interação:
+
+<img src="./img/int2.png">
+
+O animal se encontra na posição [3,0] e o fogo se alastra nas 4 direções. Sem águas encontradas e 1 passo dado.
+
+Após a terceira interação:
+
+<img src="./img/int3.png">
+
+O animal permanece na posição.
+
+Após a quarta interação:
+
+<img src="./img/int4.png">
+
+O animal permanece na posição e o fogo não tem mais para onde se espalhar.
+
+Após a quinta interação:
+
+<img src="./img/int5.png">
+
+O animal sobrevive no fim da simulação e realizou apenas 2 passos.
+
+Foi verificado que a simulação acontece de forma correta (outros exemplos de matriz foram testados e todos os requisitos foram atendidos).
+
 </p> 
+
+---
+
+## 📊 Conclusão
+
+<p>
+A simulação conseguiu representar bem a movimentação do animal e o avanço do fogo dentro da floresta, seguindo as regras que foram estabelecidas. A cada rodada, deu pra perceber que o crescimento do fogo acontece de forma muito rápida e exponencial: uma vez iniciado, ele vai tomando proporções cada vez maiores, já que a cada interação ele se espalha para várias árvores saudáveis ao redor, multiplicando sua área afetada.
+
+Mesmo com a tentativa do animal de fugir buscando áreas seguras ou água, nem sempre é possível escapar, principalmente quando o fogo cerca muitas direções ao mesmo tempo. Isso mostra como o comportamento do incêndio é difícil de controlar sem uma intervenção externa mais forte.
+
+Apesar de o sistema funcionar bem para o que foi proposto, algumas melhorias poderiam deixar a simulação ainda mais interessante e realista. Por exemplo:
+
+- Poderia ser implementado um sistema mais inteligente de movimentação do animal, talvez usando algoritmos de caminho mínimo (como Dijkstra ou A*), para ele planejar rotas melhores.
+    
+</p>
+
+--- 
+
+## Referências 
+
+<p>
+    
+- Biblioteca < iostream >
+Utilizada para entrada e saída de dados no console, permitindo a impressão da matriz, do caminho do animal, e informações gerais da simulação.
+    
+- Biblioteca < fstream >
+Utilizada para leitura de dados de arquivos (input.dat) e gravação dos resultados em um arquivo de saída (output.dat).
+
+- Biblioteca < vector >
+Usada para criar e manipular as matrizes da floresta e do caminho do animal de maneira dinâmica.
+
+- Biblioteca < queue >
+Aplicada na implementação da movimentação do animal, utilizando busca em largura (BFS) para encontrar rotas seguras.
+
+- Biblioteca < utility >
+Utilizada para manipular pares de valores (std::pair<int, int>) representando coordenadas na matriz.
+
+- Biblioteca < string >
+Usada para manipular cadeias de caracteres, como nomes de arquivos e mensagens de texto.
+
+- Biblioteca < cstdlib >
+Utilizada para gerar valores aleatórios, principalmente na escolha da posição inicial do animal em locais seguros.
+
+- Biblioteca < ctime >
+Utilizada para inicializar o gerador de números aleatórios (srand(time(0))), garantindo que a aleatoriedade varie a cada execução do programa.
+
+- Biblioteca < algorithm >
+Usada para operações de manipulação de dados, como encontrar elementos em vetores ou fazer cópias e modificações.
+
+- Biblioteca < iomanip >
+Utilizada para controlar a formatação de saída, como alinhamento e espaçamento entre elementos impressos no console.
+
+- Linguagem C++
+Todo o projeto foi desenvolvido em C++, aproveitando recursos de orientação a objetos, manipulação eficiente de dados e velocidade de execução.
+
+</p>
 
 ## 🚀 Como Executar
 
