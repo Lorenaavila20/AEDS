@@ -9,6 +9,30 @@
 <p>Neste trabalho, foi proposto desenvolver um simulador que representa a propagação de um incêndio em uma floresta e a tentativa de fuga de um animal presente nesse ambiente. A ideia é simular esse cenário em uma matriz, onde cada célula representa um tipo de terreno (como árvores, fogo, água ou áreas vazias). A cada iteração da simulação, o fogo se espalha de acordo com certas regras, e o animal precisa encontrar um caminho seguro para escapar, levando em consideração a situação ao redor.</p>
 
 
+## 📁 Estrutura do Projeto
+
+```bash
+.
+├── src/                  # Códigos-fonte (classes e funções)
+│   ├── floresta.cpp
+│   ├── animal.cpp
+│   ├── simulacao.cpp
+│   └── main.cpp
+├── include/              # Arquivos de cabeçalho
+│   ├── floresta.hpp
+│   ├── animal.hpp
+│   ├── simulacao.hpp
+│   └── config.hpp
+├── input.dat             # Arquivo de entrada com a floresta e posição inicial do fogo
+├── output.dat            # Arquivo de saída com os estados da simulação
+├── img/                  # Fotos utilizadas
+│   ├── qrcode.png
+│   ├── foto.jpg
+├── Makefile              # Script de compilação
+└── README.md             # Este arquivo
+```
+
+
 ## 📖 Metodologia
 ### Propagação do fogo 🔥
 <p>
@@ -25,6 +49,8 @@ Além da propagação normal, a simulação também permite a influência do ven
 
 Essa influência do vento deixa a movimentação do fogo mais dinâmica: em algumas situações, o fogo pode se espalhar mais rápido para um lado específico da floresta, mudando o jeito como o animal precisa se mover para escapar.
 </p>
+
+---
 
 ### Movimentação do animal 🐾
 <p>
@@ -54,6 +80,8 @@ Se, mesmo tentando, o animal ficar cercado pelo fogo e for atingido, chamamos o 
 Por fim, para acompanhar tudo, criamos o método imprimirCaminhoComMatriz(), que mostra tanto a matriz da floresta quanto o caminho percorrido pelo animal, salvando também tudo isso em um arquivo de saída.
 </p>
 
+---
+
 ### Simulação 👾
 <p>
 Depois que tudo foi montado — floresta, fogo e animal — criamos a classe Simulacao para gerenciar todo o funcionamento do programa. Essa classe foi pensada como o "cérebro" da operação, a responsável por fazer o tempo passar dentro da floresta.
@@ -73,32 +101,30 @@ Se em algum momento o animal for bloqueado ou o fogo consumir tudo, o loop da si
 Se o limite de interações for atingido e o animal não for bloqueado, a simulação encerra e o animal sobrevive.
 </p>
 
-
-## 📁 Estrutura do Projeto
-
-```bash
-.
-├── src/                  # Códigos-fonte (classes e funções)
-│   ├── floresta.cpp
-│   ├── animal.cpp
-│   ├── simulacao.cpp
-│   └── main.cpp
-├── include/              # Arquivos de cabeçalho
-│   ├── floresta.hpp
-│   ├── animal.hpp
-│   ├── simulacao.hpp
-│   └── config.hpp
-├── input.dat             # Arquivo de entrada com a floresta e posição inicial do fogo
-├── output.dat            # Arquivo de saída com os estados da simulação
-├── img/                  # Fotos utilizadas
-│   ├── qrcode.png
-│   ├── foto.jpg
-├── Makefile              # Script de compilação
-└── README.md             # Este arquivo
-```
-
+---
 
 ## 🖥️ Resultados
+<p>
+    Para ilustrar o funcionamento da simulação, foram feitos alguns testes onde é possível acompanhar tanto a propagação do fogo quanto a movimentação do animal tentando escapar. Em cada interação, é mostrado o estado da floresta e o caminho percorrido pelo animal.
+Foi utilizada a matriz:
+    
+```bash
+5 5 1 1
+0 1 1 0 0
+1 2 1 0 1
+1 1 1 0 0
+1 0 1 1 0
+0 0 1 0 0
+
+```
+O fogo começará na posição [1,1] na matriz 5X5, com o vento desligado (fogo irá se propagar nas 4 direções) e com o máximo de 5 interações.
+(Foi escolhida uma matriz 5x5 apenas de exemplo para melhor vizualização!)
+
+Após a primeira interação:
+
+<img src="./img/int1.png">
+    
+</p> 
 
 ## 🚀 Como Executar
 
