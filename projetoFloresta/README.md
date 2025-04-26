@@ -28,6 +28,11 @@
 ├── img/                  # Fotos utilizadas
 │   ├── qrcode.png
 │   ├── foto.jpg
+│   ├── int1.png
+│   ├── int2.png
+│   ├── int3.png
+│   ├── int4.png
+│   ├── int5.png
 ├── Makefile              # Script de compilação
 └── README.md             # Este arquivo
 ```
